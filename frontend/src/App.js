@@ -25,7 +25,6 @@ const App = () => {
     <Header />
     <main>
       <Container>
-//     welcome
       <Route path="/placeorder" component={PlaceOrderScreen} />
       <Route path="/order/:id" component={OrderScreen} />
       <Route path="/payment" component={PaymentScreen} />

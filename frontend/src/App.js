@@ -24,6 +24,7 @@ const App = () => {
     <Router>
     <Header />
     <main>
+      {/* push practice */}
       <Container>
       <Route path="/placeorder" component={PlaceOrderScreen} />
       <Route path="/order/:id" component={OrderScreen} />
